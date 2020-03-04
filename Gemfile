@@ -28,3 +28,12 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
 end
+
+# Handling money
+gem 'money-rails'
+
+# Handling payment using Stripe payment gateway
+gem 'stripe'
+
+# To enable a web hook from the Stripe API
+gem 'stripe_event'
